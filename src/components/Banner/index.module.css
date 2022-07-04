@@ -1,0 +1,23 @@
+.banner {
+    width: 100vw;
+    height: 700px;
+    background: url('../../assets/images/background.png');
+    background-size: cover;
+    position: relative;
+}
+
+.slogan {
+    position: absolute;
+    top: 325px;
+    left: 182px;
+}
+.astronaut{
+    position: absolute;
+    top: 80px;
+    right: 216px;
+}
+.mintCard{
+    position: absolute;
+    top: 560px;
+    right: 260px;
+}
