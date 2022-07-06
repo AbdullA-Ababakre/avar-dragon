@@ -1,0 +1,57 @@
+.mintWrapper {
+    width: 607px;
+    height: 483px;
+    background: rgba(255, 255, 255, 0.64);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 138px;
+    margin-top: 100px;
+}
+
+.btnInputWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.mintButton {
+    background: #E35D38;
+    border-radius: 10px;
+    padding: 12px 18px 12px 20px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mintMain {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mintAttention {
+    color: #FD6E46;
+}
+
+.contentInput {
+    border-radius: 1em;
+    border: solid 2px gray;
+    margin-left: 1em;
+    color: black;
+    height: 40px;
+    width: 6em;
+    text-align: center;
+    font-size: 1.1em;
+    margin-right: 5px;
+}
