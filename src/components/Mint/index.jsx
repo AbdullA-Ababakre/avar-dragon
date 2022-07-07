@@ -2,6 +2,7 @@ import { useState } from "react";
 // import logo from "../../assets/images/logo2.gif"
 import mintBtn from "../../assets/images/mint.png"
 import Styles from './index.module.css';
+import MintBtnText from '../../assets/images/mintBtnText.png';
 
 const MintButton = function (props) {
     const [nftContract, setNftContract] = useState('')
@@ -50,9 +51,9 @@ const MintButton = function (props) {
             <div className={Styles.mintMain}>Supply<span className={Styles.mintAttention}>10000</span></div>
             <div className={Styles.mintMain}>Free Mint <span className={Styles.mintAttention}>2000</span></div>
             <div className={Styles.btnInputWrapper}>
-                <input className={Styles.contentInput} type="number" value={value} min="1" max="5" step='1' onChange={(value) => inputChange(value)} />
+                <input style={{backgroundColor:'#D89684'}} className={Styles.contentInput} type="number" value={value} min="1" max="5" step='1' onChange={(value) => inputChange(value)} />
                 <div className={Styles.mintButton} onClick={Mint}>
-                    Mint
+                    <img className={Styles.MintBtnText} src={MintBtnText} alt="MintBtnText"></img>
                 </div>
             </div>
             <div className={Styles.mintMain}><span className={Styles.mintAttention}>xxxx</span>/10000</div>

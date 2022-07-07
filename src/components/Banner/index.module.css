@@ -1,5 +1,4 @@
 .banner {
-    width: 100vw;
     background: url('../../assets/images/background.png');
     background-size: cover;
     position: relative;
@@ -11,12 +10,14 @@
     top: 325px;
     left: 182px;
 }
-.astronaut{
+
+.astronaut {
     position: absolute;
     top: 180px;
     right: 216px;
 }
-.mintCard{
+
+.mintCard {
     position: absolute;
     top: 560px;
     right: 260px;

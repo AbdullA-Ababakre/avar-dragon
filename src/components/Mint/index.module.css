@@ -18,6 +18,7 @@
 }
 
 .mintButton {
+    /* background-image: url('../../assets/images/mintBtnText.png'); */
     background: #E35D38;
     border-radius: 10px;
     padding: 12px 18px 12px 20px;
@@ -25,6 +26,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.MintBtnText {
+    width: 100%;
 }
 
 
@@ -49,9 +54,15 @@
     border: solid 2px gray;
     margin-left: 1em;
     color: black;
-    height: 40px;
+    height: 45px;
     width: 6em;
     text-align: center;
     font-size: 1.1em;
-    margin-right: 5px;
+    margin-right: 10px;
+    forced-color-adjust: none;
+}
+
+.contentInput:focus {
+    outline: none !important;
+    border: solid 2px gray;
 }
