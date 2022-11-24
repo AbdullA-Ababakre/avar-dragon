@@ -1,6 +1,4 @@
 import { useState } from "react";
-// import logo from "../../assets/images/logo2.gif"
-import mintBtn from "../../assets/images/mint.png"
 import Styles from './index.module.css';
 import MintBtnText from '../../assets/images/mintBtnText.png';
 
