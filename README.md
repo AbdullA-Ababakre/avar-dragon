@@ -1,3 +1,11 @@
+# Core
+
+- wallet connection
+
+- mint 
+
+One can learn those two features in web3 branch.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
